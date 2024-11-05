@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "hadesfont";
+    src: url(../font/HADES.otf);
+}
+
+/* Header */
+
+#bgImage {
+    height: 120vh;
+    background-image: url(../img/wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 11, 9);
+    height: 130px;
+    padding: 50px;
+}
+
+
+#bande img {
+    margin-top: 50px;
+    width: 400px;
+}
+
+/* Les traits de la nav */
+
+li {
+    background-color: rgba(183, 16, 21, 255);
+    width: 60px;
+    height: 4px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+/* Main */
+/* Les personnages */
+
+h1 {
+    background-color: rgb(21, 11, 9);
+    font-family: "hadesfont";
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Zagreus */
+
+#Zagreus {
+    background-color: rgb(102,26,26);
+    color: rgba(254,204,20,255);
+    position: relative;
+}
+
+#Zagreus div:nth-child(1) {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#Zagreus img {
+    width: 600px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+#Zagreus h2 {
+    text-align: center;
+    padding: 80px;
+    font-size: 100px;
+    font-family: "hadesfont";
+}
+
+.contenu {
+    width: 90%;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: right;
+    padding-bottom: 170px;
+}
